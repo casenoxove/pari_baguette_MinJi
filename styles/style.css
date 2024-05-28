@@ -1,0 +1,318 @@
+body {
+    width: 430px;
+    height: 2435px;
+    margin: 0 auto;
+    font-family: "Noto Sans KR", sans-serif;
+}
+header, main {
+    background-color: #E6D9B7;
+}
+header nav {}
+header nav .gnb {
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+header nav .gnb h1 {}
+header nav .gnb h1 a {
+    font-size: 0.75rem;
+    position: relative;
+}
+header nav .gnb h1 a span {
+    font-size: 0.75rem;
+    color: #023586;
+}
+header nav .gnb h1 a span::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 17px;
+    background-color: #023586;
+    width: 47px; height: 1px;
+    margin-top: 1px;
+}
+header nav .gnb h1 img {}
+main {}
+main .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+main .first img {
+    margin-bottom: 12px;
+}
+main .first h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #023586;
+    margin-bottom: 50px;
+}
+main .center {}
+main .center .info_one {
+    display: flex;
+}
+main .center .info_one img {
+    padding-left: 16px;
+}
+main .center .info_one .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 17px;
+}
+main .center .info_one .text p {
+    background-color: #023586;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+main .center .info_one .text h2 {
+    line-height: 1.5;
+}
+main .center .info_one .text span {
+    font-weight: 700;
+    color: #023586;
+}
+main .center .info_text {
+    padding-left: 16px;
+    margin-top: 20px;
+    color: #404040;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+main .center .info_two {
+    display: flex;
+    flex-flow: row-reverse;
+    margin-top: 50px;
+}
+main .center .info_two img {
+    padding-right: 16px;
+}
+main .center .info_two .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: right;
+    padding-right: 17px;
+}
+main .center .info_two .text p {
+    background-color: #023586;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+main .center .info_two .text h2 {
+    line-height: 1.5;
+}
+main .center .info_two .text span {
+    font-weight: 700;
+    color: #023586;
+}
+main .center .info_text_two {
+    padding-right: 16px;
+    margin-top: 20px;
+    color: #404040;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    text-align: right;
+}
+main .ad {
+    margin-top: 50px;
+    position: relative;
+}
+main .ad img {}
+main .ad span {}
+main .ad span img {
+    position: absolute;
+    left: 112px; top: 118px;
+}
+main .turn {
+    margin-top: 50px;
+    padding: 0 16px;
+}
+main .turn .turn_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .turn .turn_title h2 {
+    font-size: 1.25rem;
+}
+main .turn .turn_title span {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #023586;
+}
+main .turn .turn_title p {
+    font-size: 0.75rem;
+    color: #404040;
+    margin-left: 7px;
+}
+main .turn .turn_icons {
+    margin-top: 50px;
+}
+main .turn .turn_icons .one,
+main .turn .turn_icons .two,
+main .turn .turn_icons .three {
+    display: flex;
+}
+main .turn .turn_icons .one p,
+main .turn .turn_icons .two p,
+main .turn .turn_icons .three p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-bottom: 45px;
+    line-height: 1.5;
+}
+main .turn .turn_icons .one p img,
+main .turn .turn_icons .two p img,
+main .turn .turn_icons .three p img {
+    margin: 0 9px;
+}
+main nav .bottom {
+    height: 56px;
+    background-color: #023586;
+    display: flex;
+    justify-content: center;
+}
+main nav .bottom a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 0.625rem;
+    padding-left: 35px;
+}
+main nav .bottom a:first-child {
+    padding: 0;
+}
+main nav .bottom a img {}
+/* --------------------------- */
+/* 상담신청 */
+/* --------------------------- */
+main .title {
+    padding-top: 50px;
+    padding-left: 16px;
+    position: relative;
+}
+main .title::after {
+    content: '';
+    position: absolute;
+    width: 400px; height: 1px;
+    background-color: #404040;
+    left: 16px; top: 165px;
+}
+main .title h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #023586;
+}
+main .title p {
+    font-size: 0.75rem;
+    margin-top: 15px;
+}
+main .title span {
+    font-size: 0.625rem;
+    margin-top: 5px;
+    color: #404040;
+}
+main form {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+main form fieldset {}
+main form fieldset legend {}
+main form fieldset dl {
+    display: flex;
+    margin-bottom: 10px;
+}
+main form fieldset dl dt {
+    font-size: 0.625rem;
+}
+main form fieldset dl dd {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 0.625rem;
+}
+main form fieldset dl dd input {
+    border: 0;
+}
+main form fieldset dl dd input[name=user_name] {
+    width: 150px;
+}
+main form fieldset dl dd input[name=user_phone] {
+    width: 45px;
+    margin-left: 7px;
+}
+main form fieldset dl dd input[name=email] {
+    width: 70px;
+}
+main form fieldset dl dd select {
+    border: 0;
+    color: #404040;
+}
+main form fieldset dl dd select option {
+    font-size: 0.625rem;
+    color: #404040;
+}
+main form fieldset dl dd input[name=hope_area] {
+    width: 150px;
+}
+main form fieldset dl dd input[name=form_name] {
+    width: 290px;
+}
+main form fieldset dl dd input[type=radio] {
+    width: 10px; height: 10px;
+}
+main form fieldset dl dd label {
+    font-size: 0.625rem;
+}
+main form fieldset dl dd textarea {
+    border: 0;
+    width: 290px;
+}
+main form fieldset button {
+    text-align: center;
+    width: 150px;
+    padding: 7px 20px;
+    background-color: #023586;
+    color: #fff;
+    border-radius: 30px;
+    border: 0;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+main .ad_two {
+    margin-top: 50px;
+    position: relative;
+}
+main .ad_two img {}
+main .ad_two span {}
+main .ad_two span img {
+    position: absolute;
+    left: 112px; top: 118px;
+}

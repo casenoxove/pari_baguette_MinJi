@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PE 파리바게트 ㅣ 창업절차</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="gnb">
+                <h1><a href="./index.html"><img src="./images/top_logo.svg" alt="로고"></a></h1>
+                <h1><a href="./index.html"><span>회사 소개</span></a></h1>
+                <h1><a href="./index.html">PB MAGAZINE</a></h1>
+                <h1><a href="./index.html">PB STORY</a></h1>
+                <h1><a href="./index.html">PRODUCT</a></h1>
+                <h1><a href="#"><img src="./images/search.png" alt="검색"></a></h1>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="title">
+            <h2>가맹점 상담신청</h2>
+            <p>가맹점 관련하여 궁금한 점은 언제든 문의주시기 바랍니다.</p>
+            <span>* 항목은 필수 입력사항입니다.</span>
+        </div>
+        <form action="#" method="get" id="founded">
+            <fieldset>
+                <legend class="skip"></legend>
+                <dl>
+                    <dt>* 이름</dt>
+                    <dd><input type="text" name="user_name" required></dd>
+                </dl>
+                <dl>
+                    <dt>* 휴대폰번호</dt>
+                    <dd>
+                        <input type="number" name="user_phone" required>
+                        <input type="number" name="user_phone" required>
+                        <input type="number" name="user_phone" required>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>* 이메일</dt>
+                    <dd>
+                        <input type="text" name="email" required> @
+                        <select name="email" id="web" required>
+                            <option value="">google.com</option>
+                            <option value="naver">naver.com</option>
+                            <option value="kakao">kakao.com</option>
+                            <option value="hanmail">hanmail.com</option>
+                            <option value="직접 입력">직접 입력</option>
+                        </select>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>* 창업희망지역</dt>
+                    <dd><input type="text" name="hope_area" required></dd>
+                </dl>
+                <dl>
+                    <dt>* 신청계기</dt>
+                    <dd>
+                        <input type="radio" name="meter" id="internet" required>
+                        <label for="internet">인터넷 검색</label>
+                        <input type="radio" name="meter" id="visit" required>
+                        <label for="visit">매장 방문</label>
+                        <input type="radio" name="meter" id="friend" required>
+                        <label for="friend">지인 소개</label>
+                        <input type="radio" name="meter" id="consulting" required>
+                        <label for="consulting">컨설팅/부동산</label>
+                        <input type="radio" name="meter" id="etc" required>
+                        <label for="etc">기타</label>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>* 제목</dt>
+                    <dd><input type="text" name="form_name" required></dd>
+                </dl>
+                <dl>
+                    <dt> * 내용</dt>
+                    <dd><textarea name="form_text" id="inquiry" cols="30" rows="10" required></textarea></dd>
+                </dl>
+                <button type="submit" name="end">상담 신청하기</button>
+            </fieldset>
+        </form>
+        <div class="ad_two">
+            <img src="./images/ad3.jpg" alt="">
+            <span><img src="./images/white_logo.svg" alt=""></span>
+        </div>
+        <nav>
+            <div class="bottom">
+                <a href="./index.html"><img src="./images/bottom_bar_1.png" alt="">매장소개</a>
+                <a href="./index.html"><img src="./images/bottom_bar_2.png" alt="">상담신청</a>
+                <a href="./index.html"><img src="./images/bottom_bar_3.png" alt="">배송서비스</a>
+                <a href="./index.html"><img src="./images/bottom_bar_4.png" alt="">프로모션</a>
+            </div>
+        </nav>
+    </main>
+</body>
+</html>
